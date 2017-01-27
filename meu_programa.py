@@ -129,6 +129,7 @@ elif y == '4':
 		lista[primeiro] = lista[ladoDireito]
 		lista[ladoDireito] = temp
 
+		return ladoDireito #tinha apagado sem querer
 
 	quickSort(x)
 	#print 'quickSort'
