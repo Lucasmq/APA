@@ -5,17 +5,22 @@
 f.closed '''
 #listateste = ['3','5','0','2','1']
 import sys
-
 y = sys.argv[1]
 #print y
 
-x=[]
+tamanho = input()
+x=[None]*tamanho
+
+for i in range(0,tamanho):
+	x[i] = input()
+
+'''
 while(True):
 	try:
 		x.append(input())
 	except:
 		break
-
+'''
 	#read_data = [int(x.strip()) for x in read_data] 
 	##############################################################################################
 if y == '1':
